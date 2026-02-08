@@ -56,3 +56,13 @@ img {
   max-width: 100%;
   height: auto;
   }
+
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
