@@ -24,7 +24,7 @@ const clickButton = document.getElementById("click-btn");
 themeButton.addEventListener("click", toggleTheme);
 clickButton.addEventListener("click", increaseClickCount);
 
-const themeBtn = document.getElementById("themeBtn");
+const themeBtn = document.getElementById("theme-btn");
 
 let isDark = false;
 
@@ -49,6 +49,7 @@ if (savedTheme === "dark") {
 }
 
 renderTheme();
+
 
 const lastUpdated = document.getElementById("lastUpdated");
 
