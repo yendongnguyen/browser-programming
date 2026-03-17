@@ -8,7 +8,7 @@ Part A – Fetch Data
 const response = await fetch("https://jsonplaceholder.typicode.com/users");
 const data = await response.json();
 console.log(data);
-
+```
 Explanation
 
 fetch() sends a request to the API
@@ -23,6 +23,9 @@ console.log(data) prints: ➡️ An array of user objects
 
 Part B – Print User Information
 
+### Code
+
+```javascript
 users.forEach(function(user) {
 
     const name = user.name;
@@ -32,7 +35,7 @@ users.forEach(function(user) {
     log(name + " - " + email + " - " + city);
 
 });
-
+```
 Explanation
 
 Loop through all users using forEach()
@@ -44,7 +47,9 @@ Ervin Howell - ervin@example.com - Wisokyburgh
 Clementine Bauch - clementine@example.com - McKenziehaven
 
 Part C – Add Error Handling
-Code
+### Code
+
+```javascript
 try {
 
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -60,6 +65,8 @@ try {
     log("Error: " + error.message);
 
 }
+```
+
 Explanation
 
 try...catch prevents the app from crashing
@@ -69,6 +76,7 @@ response.ok ensures the request is successful
 Throws error if HTTP status is not OK
 
 Part D – Test Error Handling
+
 Changed URL
 https://jsonplaceholder.typicode.com/userssss
 Result
