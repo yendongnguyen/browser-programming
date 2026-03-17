@@ -87,17 +87,18 @@ This confirms error handling works correctly.
 Part E – Display Results on Webpage
 HTML
 <ul id="userList"></ul>
-JavaScript
+
+```JavaScript
 const list = document.getElementById("userList");
 list.innerHTML = "";
 
 const li = document.createElement("li");
 li.textContent = name + " - " + email + " - " + city;
 list.appendChild(li);
+```
 Explanation
 
-Creates a <li> element for each user
-
+Creates an element for each user
 Displays formatted data in the webpage
 
 Reflection
