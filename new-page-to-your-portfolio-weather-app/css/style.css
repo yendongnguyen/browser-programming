@@ -1,0 +1,108 @@
+/* Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header & Footer */
+header,
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Layout & spacing */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  }
+
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-card {
+  background: #f2f2f2;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.dark .skill-card {
+  background-color: #333;
+}
+
+.dark a {
+  color: #4da6ff;
+}
