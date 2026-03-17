@@ -102,6 +102,7 @@ Creates an element for each user
 Displays formatted data in the webpage
 
 Reflection
+
 1️⃣ What does fetch() return?
 
 fetch() returns a Promise that resolves to a Response object.
