@@ -1,5 +1,5 @@
 // API base: change to your deployed backend (Render) URL before deploying frontend
-const API_BASE = 'http://localhost:3000';
+const API_BASE = 'https://notes-app-backend-rh1j.onrender.com';
 
 const notesContainer = document.getElementById('notes-container');
 const addBtn = document.getElementById('add-btn');
